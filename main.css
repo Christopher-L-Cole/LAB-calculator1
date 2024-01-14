@@ -1,7 +1,107 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(20, 61, 47);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #container {
   max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.numBar {
+  width: 360px;
+  max-height: 5px;
+  padding: 20px;
+  font-size: small;
+  text-align: left;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#keys {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.cBtn {
+  width: 200px;
+}
+
+.zeroBtn {
+  width: 300px;
+}
+
+.funcBtn{
+  color: white;
+  background-color: #df974c;
+}
+
+.cBtn:hover {
+  background-color: #ebebeb;
+}
+.cBtn:active {
+  background-color: #bbbcbe;
+}
+
+.funcBtn:hover {
+  background-color: #dfb07e;
+}
+.funcBtn:active {
+  background-color: #dd8d37
+  ;
+}
+
+.arrowBtn:hover {
+  background-color: #ebebeb;
+}
+.arrowBtn:active {
+  background-color: #bbbcbe;
+}
+
+.numBar:hover {
+  background-color: #ebebeb;
+}
+.numBar:active {
+  background-color: #bbbcbe;
+}
+
+.zeroBtn:hover {
+  background-color: #ebebeb;
+}
+.zeroBtn:active {
+  background-color: #bbbcbe;
+}
+
+.first-row {
+  display: flex;
+  flex: auto;
+}
+.second-row {
+  display: flex;
+  flex: auto;
+}
+.third-row {
+  display: flex;
+  flex: auto;
+}
+.forth-row {
+  display: flex;
+  flex: auto;
+}
+.fifth-row {
+  display: flex;
+  flex: auto;
 }
